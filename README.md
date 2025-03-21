@@ -87,18 +87,18 @@ Piexed AI is a large language model AI designed for various applications. This r
 
 ### Piexed VPS & KVM1,2,3,4,5,6,7 & Dedicated server Cloud Installation
 
-1. Connect to your ECS instance via SSH
-2. Download the Alibaba Cloud installer script:
+1. Connect to your Piexed instance via SSH
+2. Download the Piexed Cloud installer script:
     ```sh
     wget https://github.com/developerbrother123/piexedai/install.sh
     ```
 3. Make the script executable:
     ```sh
-    chmod +x alibaba-install.sh
+    chmod +x install.sh
     ```
 4. Run the installer:
     ```sh
-    sudo ./alibaba-install.sh
+    sudo ./install.sh
     ```
 5. Follow the on-screen instructions to complete the installation
 
