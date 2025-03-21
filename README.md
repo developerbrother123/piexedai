@@ -1,6 +1,8 @@
 # Piexed AI
 
-Piexed AI is a large language model AI designed for various applications. This repository contains the source code and installation instructions for setting up Piexed AI.
+Piexed AI is a large language model AI designed for various applications. This repository contains the source code and installation instructions for setting up Piexed AI 
+Developed by - Piexed Inc Team & Developer 
+Version - 9.2.2
 
 ## Table of Contents
 
@@ -241,7 +243,7 @@ After installing Piexed AI, you should:
 ## Features
 
 - Easy installation on VPS, dedicated servers, and cloud environments
-- Support for major cloud providers (AWS, Alibaba Cloud, Google Cloud, Microsoft Azure, DigitalOcean, Linode, Vultr)
+- Support for major cloud providers (AWS,Piexed,Alibaba Cloud, Google Cloud, Microsoft Azure, DigitalOcean, Linode, Vultr)
 - Comprehensive documentation and support
 - Configurable AI models with API key integration and withown Opensource AI Pretrained model
 - Subscription plans and payment gateway configuration stripe and nowpayment.io
@@ -257,7 +259,7 @@ After installing Piexed AI, you should:
 
 ### Chat Interface
 - Real-time chat functionality with AI
-- Voice command integration
+- Voice command integration Like the Gemini
 - Message history and conversation management
 
 ### Video Editor
@@ -346,8 +348,10 @@ After installing Piexed AI, you should:
 - API endpoints for external services
 ## Getting Help
 
+For the Commercial use please see the license 
 If you encounter issues not covered in this guide:
 
 - Check the [documentation](public/docs-installation.html)
 - Visit our [GitHub issues](https://github.com/your-repo/piexed-ai/issues) page
 - Contact support at [email developer brother](mailto:transfernowat@gmail.com)
+- - Check the [Commercial Use License](public/license/license.txt)
