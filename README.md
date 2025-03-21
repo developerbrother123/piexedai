@@ -30,12 +30,8 @@ Piexed AI is a large language model AI designed for various applications. This r
 
 - Amazon Web Services (EC2)
 - Alibaba Cloud (ECS)
-- Google Cloud Platform
-- Microsoft Azure
-- DigitalOcean
-- Linode/Akamai
-- Vultr
-
+- Piexed VPS & Dedicated server
+- 
 ## Installation Methods
 
 ### VPS/Dedicated Server Installation
@@ -43,7 +39,7 @@ Piexed AI is a large language model AI designed for various applications. This r
 1. Connect to your server via SSH
 2. Download the installer script:
     ```sh
-    wget https://piexed.ai/download/install.sh
+    wget https://github.com/developerbrother123/piexedai/blob/main/piexed-ai/install.sh
     ```
 3. Make the script executable:
     ```sh
@@ -60,7 +56,7 @@ Piexed AI is a large language model AI designed for various applications. This r
 1. Connect to your EC2 instance via SSH
 2. Download the AWS installer script:
     ```sh
-    wget https://piexed.ai/download/cloud/aws-install.sh
+    wget https://github.com/developerbrother123/piexedai/blob/main/piexed-ai/cloud/aws-install.sh
     ```
 3. Make the script executable:
     ```sh
@@ -77,7 +73,7 @@ Piexed AI is a large language model AI designed for various applications. This r
 1. Connect to your ECS instance via SSH
 2. Download the Alibaba Cloud installer script:
     ```sh
-    wget https://piexed.ai/download/cloud/alibaba-install.sh
+    wget https://github.com/developerbrother123/piexedai/blob/main/piexed-ai/cloud/alibaba-install.sh
     ```
 3. Make the script executable:
     ```sh
