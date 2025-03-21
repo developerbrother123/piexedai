@@ -1,3 +1,65 @@
---please enter your license below and save it and Exit 
+**Piexed AI License Agreement**
 
-["Your-License-Key"]
+**Version 1.0**  
+**Last Updated: March 20, 2025**
+
+**Copyright © 2025 Piexed Inc. All rights reserved.**
+
+This Piexed AI License Agreement ("License") governs the use, distribution, and modification of the Piexed AI software ("Software") developed by Piexed Inc. ("Developer"). By accessing, using, or distributing the Software, you ("Licensee") agree to be bound by the terms and conditions of this License. If you do not agree to these terms, you are not permitted to use, access, or distribute the Software.
+
+### 1. Definitions
+- **Software**: Refers to the Piexed AI self-evolving language model, including all source code, binaries, documentation, and associated materials provided by Piexed Inc.
+- **Developer**: Refers to Piexed Inc., the original creator and copyright holder of the Software.
+- **Licensee**: Refers to any individual, organization, or entity that accesses, uses, or distributes the Software under this License.
+- **Research and Development Use**: Refers to the use of the Software for non-commercial purposes, including academic research, experimentation, and development of non-commercial applications.
+- **Commercial Use**: Refers to any use of the Software for direct or indirect financial gain, including but not limited to deployment in commercial products, services, or applications, or use in a business setting to generate revenue.
+
+### 2. Grant of License
+Subject to the terms and conditions of this License, Piexed Inc. grants the Licensee a non-exclusive, non-transferable, revocable license to:
+- Use the Software for Research and Development Use only.
+- Modify the Software for Research and Development Use, provided that such modifications are not distributed without prior written consent from Piexed Inc.
+- Access and study the source code of the Software for educational and research purposes.
+
+### 3. Restrictions
+The Licensee is expressly prohibited from:
+- Using the Software for any Commercial Use, including but not limited to deploying the Software in commercial products, services, or applications, or using the Software to generate revenue.
+- Distributing, sublicensing, or sharing the Software, in whole or in part, with any third party without prior written consent from Piexed Inc. Distribution of the Software is strictly controlled by Piexed Inc., and unauthorized distribution is prohibited.
+- Removing, altering, or obscuring any copyright, trademark, or other proprietary notices included in the Software.
+- Using the Software in any manner that violates applicable laws, regulations, or third-party rights.
+
+### 4. Distribution
+- **Authorized Distribution**: The Software may only be distributed by Piexed Inc. or with explicit written permission from Piexed Inc. Any distribution of the Software, including modified versions, without such permission is strictly prohibited and constitutes a material breach of this License.
+- **Unauthorized Distribution**: Unauthorized distribution of the Software, including for Commercial Use, will result in severe penalties as outlined in Section 7.
+
+### 5. Ownership and Intellectual Property
+- The Software is the exclusive property of Piexed Inc. and is protected by copyright, trademark, and other intellectual property laws.
+- The Licensee does not acquire any ownership rights, title, or interest in the Software under this License, except for the limited rights expressly granted herein.
+- Any modifications, improvements, or derivative works created by the Licensee based on the Software remain the property of Piexed Inc., and the Licensee hereby assigns all rights, title, and interest in such modifications to Piexed Inc.
+
+### 6. Warranty and Liability
+- **No Warranty**: The Software is provided "as is," without any warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. Piexed Inc. does not guarantee the accuracy, reliability, or performance of the Software.
+- **Limitation of Liability**: To the maximum extent permitted by law, Piexed Inc. shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or related to the use of the Software, even if Piexed Inc. has been advised of the possibility of such damages.
+
+### 7. Penalties for Unauthorized Commercial Use and Distribution
+- **Commercial Use Violation**: Any use of the Software for Commercial Use without prior written consent from Piexed Inc. is a material breach of this License. Violators will be subject to a penalty of up to $500,000 USD per instance of unauthorized Commercial Use, in addition to any damages, legal fees, and costs incurred by Piexed Inc. in enforcing this License.
+- **Unauthorized Distribution**: Any distribution of the Software without prior written consent from Piexed Inc. is a material breach of this License. Violators will be subject to a penalty of up to $1,000,000 USD per instance of unauthorized distribution, in addition to any damages, legal fees, and costs incurred by Piexed Inc. in enforcing this License.
+- **Injunction and Remedies**: Piexed Inc. reserves the right to seek injunctive relief, terminate this License, and pursue all available legal remedies to enforce the terms of this License.
+
+### 8. Termination
+- This License is effective until terminated. Piexed Inc. may terminate this License at any time, with or without cause, by providing notice to the Licensee.
+- Upon termination, the Licensee must immediately cease all use of the Software, delete all copies of the Software in their possession, and certify in writing to Piexed Inc. that such actions have been taken.
+- Any violation of the terms of this License will result in automatic termination of the License, and the Licensee will be liable for any penalties or damages as outlined in Section 7.
+
+### 9. Governing Law and Dispute Resolution
+- This License shall be governed by and construed in accordance with the laws of the State of California, United States, without regard to its conflict of law principles.
+- Any disputes arising out of or related to this License shall be resolved through binding arbitration in San Francisco, California, in accordance with the rules of the American Arbitration Association. The prevailing party shall be entitled to recover its legal fees and costs.
+
+### 10. Contact Information
+For inquiries regarding this License, including requests for distribution or Commercial Use permissions, please contact:  
+**Piexed Inc.**  
+Email: transfernowat@gmail.com  
+Address: 1234 Innovation Drive, San Francisco, CA 94105, USA
+
+### 11. Acknowledgment
+By using the Software, the Licensee acknowledges that they have read, understood, and agreed to be bound by the terms of this License.
+
