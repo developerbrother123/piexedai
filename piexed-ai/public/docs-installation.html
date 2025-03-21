@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piexed AI Installation Guide</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #4f46e5;
+        }
+        pre {
+            background-color: #f7f7f7;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, Monaco, 'Andale Mono', monospace;
+            background-color: #f7f7f7;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .note {
+            background-color: #e0f2fe;
+            border-left: 4px solid #3b82f6;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+        .warning {
+            background-color: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f7f7f7;
+        }
+    </style>
+</head>
+<body>
+    <h1>Piexed AI Installation Guide</h1>
+    
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#requirements">System Requirements</a></li>
+        <li><a href="#installation">Installation Methods</a>
+            <ul>
+                <li><a href="#vps-installer">VPS/Dedicated Server Installation</a></li>
+                <li><a href="#aws-installer">AWS Cloud Installation</a></li>
+                <li><a href="#alibaba-installer">Alibaba Cloud Installation</a></li>
+                <li><a href="#manual">Manual Installation</a></li>
+            </ul>
+        </li>
+        <li><a href="#post-installation">Post-Installation Steps</a></li>
+        <li><a href="#troubleshooting">Troubleshooting</a></li>
+    </ul>
+    
+    <h2 id="requirements">System Requirements</h2>
+    
+    <h3>Minimum Requirements</h3>
+    <ul>
+        <li>VPS or Dedicated Server</li>
+        <li>1GB RAM (2GB+ recommended for production)</li>
+        <li>10GB storage space</li>
+        <li>Node.js 18.0 or higher</li>
+        <li>PostgreSQL 13.0 or higher</li>
+        <li>Nginx or Apache web server</li>
+    </ul>
+    
+    <h3>Recommended Cloud Providers</h3>
+    <ul>
+        <li>Amazon Web Services (EC2)</li>
+        <li>Alibaba Cloud (ECS)</li>
+        <li>Google Cloud Platform</li>
+        <li>Microsoft Azure</li>
+        <li>DigitalOcean</li>
+        <li>Linode/Akamai</li>
+        <li>Vultr</li>
+    </ul>
+    
+    <div class="note">
+        <p><strong>Note:</strong> Piexed AI is optimized for VPS, dedicated servers, and cloud environments. It is not designed for shared hosting.</p>
+    </div>
+    
+    <h2 id="installation">Installation Methods</h2>
+    
+    <h3 id="vps-installer">VPS/Dedicated Server Installation</h3>
+    <p>The easiest way to install Piexed AI on a VPS or dedicated server is using our shell script installer.</p>
+    
+    <ol>
+        <li>Connect to your server via SSH</li>
+        <li>Download the installer script:
+            <pre><code>wget https://piexed.ai/download/install.sh</code></pre>
+        </li>
+        <li>Make the script executable:
+            <pre><code>chmod +x install.sh</code></pre>
+        </li>
+        <li>Run the installer:
+            <pre><code>sudo ./install.sh</code></pre>
+        </li>
+        <li>Follow the on-screen instructions to complete the installation</li>
+    </ol>
+    
+    <div class="note">
+        <p><strong>Note:</strong> The installer will set up PostgreSQL, Node.js, and Nginx automatically.</p>
+    </div>
+    
+    <h3 id="aws-installer">AWS Cloud Installation</h3>
+    <p>For installation on Amazon Web Services EC2 instances:</p>
+    
+    <ol>
+        <li>Connect to your EC2 instance via SSH</li>
+        <li>Download the AWS installer script:
+            <pre><code>wget https://piexed.ai/download/cloud/aws-install.sh</code></pre>
+        </li>
+        <li>Make the script executable:
+            <pre><code>chmod +x aws-install.sh</code></pre>
+        </li>
+        <li>Run the installer:
+            <pre><code>sudo ./aws-install.sh</code></pre>
+        </li>
+        <li>Follow the on-screen instructions to complete the installation</li>
+    </ol>
+    
+    <div class="note">
+        <p><strong>Note:</strong> The AWS installer provides options for using Amazon RDS for PostgreSQL and S3 for storage.</p>
+    </div>
+    
+    <h3 id="alibaba-installer">Alibaba Cloud Installation</h3>
+    <p>For installation on Alibaba Cloud ECS instances:</p>
+    
+    <ol>
+        <li>Connect to your ECS instance via SSH</li>
+        <li>Download the Alibaba Cloud installer script:
+            <pre><code>wget https://piexed.ai/download/cloud/alibaba-install.sh</code></pre>
+        </li>
+        <li>Make the script executable:
+            <pre><code>chmod +x alibaba-install.sh</code></pre>
+        </li>
+        <li>Run the installer:
+            <pre><code>sudo ./alibaba-install.sh</code></pre>
+        </li>
+        <li>Follow the on-screen instructions to complete the installation</li>
+    </ol>
+    
+    <div class="note">
+        <p><strong>Note:</strong> The Alibaba Cloud installer provides options for using ApsaraDB RDS for PostgreSQL and OSS for storage.</p>
+    </div>
+    
+    <h3 id="manual">Manual Installation</h3>
+    <p>For advanced users who prefer to install Piexed AI manually:</p>
+    
+    <ol>
+        <li>Install Node.js 18 or higher:
+            <pre><code># For Debian/Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# For CentOS/RHEL
+curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo bash -
+sudo yum install -y nodejs</code></pre>
+        </li>
+        <li>Install PostgreSQL:
+            <pre><code># For Debian/Ubuntu
+sudo apt-get install -y postgresql postgresql-contrib
+
+# For CentOS/RHEL
+sudo yum install -y postgresql-server postgresql-contrib
+sudo postgresql-setup initdb
+sudo systemctl start postgresql
+sudo systemctl enable postgresql</code></pre>
+        </li>
+        <li>Create PostgreSQL user and database:
+            <pre><code>sudo -u postgres psql -c "CREATE USER piexed_user WITH PASSWORD 'your_password';"
+sudo -u postgres psql -c "CREATE DATABASE piexed_ai;"
+sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE piexed_ai TO piexed_user;"
+sudo -u postgres psql -c "ALTER USER piexed_user WITH SUPERUSER;"</code></pre>
+        </li>
+        <li>Clone the repository:
+            <pre><code>git clone https://github.com/your-repo/piexed-ai.git
+cd piexed-ai</code></pre>
+        </li>
+        <li>Install dependencies:
+            <pre><code>npm install</code></pre>
+        </li>
+        <li>Create a .env file with your configuration:
+            <pre><code>DB_TYPE=postgresql
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=piexed_user
+DB_PASSWORD=your_password
+DB_NAME=piexed_ai
+
+NEXT_PUBLIC_APP_URL=https://your-domain.com
+NEXT_PUBLIC_API_URL=https://your-domain.com/api
+
+JWT_SECRET=your_random_secret
+
+TOGETHER_API_KEY=your_together_api_key
+
+CRYPTO_API_KEY=your_crypto_api_key
+CRYPTO_SUPPORTED_CURRENCIES=BTC,ETH,USDT,USDC</code></pre>
+        </li>
+        <li>Build the application:
+            <pre><code>npm run build</code></pre>
+        </li>
+        <li>Start the application:
+            <pre><code>npm start</code></pre>
+        </li>
+        <li>Set up Nginx as a reverse proxy:
+            <pre><code>sudo nano /etc/nginx/sites-available/piexed-ai</code></pre>
+            Add the following configuration:
+            <pre><code>server {
+    listen 80;
+    server_name your-domain.com;
+
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}</code></pre>
+        </li>
+        <li>Enable the site and restart Nginx:
+            <pre><code>sudo ln -s /etc/nginx/sites-available/piexed-ai /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl restart nginx</code></pre>
+        </li>
+    </ol>
+    
+    <h2 id="post-installation">Post-Installation Steps</h2>
+    
+    <p>After installing Piexed AI, you should:</p>
+    
+    <ol>
+        <li>Log in to the admin dashboard at <code>https://your-domain.com/admin</code></li>
+        <li>Configure your AI models:
+            <ul>
+                <li>Add your Together AI API key</li>
+                <li>Configure model parameters</li>
+                <li>Enable/disable specific models</li>
+            </ul>
+        </li>
+        <li>Set up subscription plans:
+            <ul>
+                <li>Define pricing tiers</li>
+                <li>Configure usage limits</li>
+                <li>Set model access permissions</li>
+            </ul>
+        </li>
+        <li>Configure payment gateways:
+            <ul>
+                <li>Set up crypto payment options</li>
+                <li>Configure other payment methods</li>
+            </ul>
+        </li>
+        <li>Customize your landing page:
+            <ul>
+                <li>Update site name and description</li>
+                <li>Modify hero section content</li>
+                <li>Add custom features and testimonials</li>
+            </ul>
+        </li>
+        <li>Configure storage options:
+            <ul>
+                <li>Set up local or cloud storage</li>
+                <li>Configure storage quotas</li>
+            </ul>
+        </li>
+        <li>Set up SSL with Let's Encrypt:
+            <pre><code>sudo apt install certbot python3-certbot-nginx
+sudo certbot --nginx -d your-domain.com</code></pre>
+        </li>
+    </ol>
+    
+    <h2 id="troubleshooting">Troubleshooting</h2>
+    
+    <h3>Common Issues</h3>
+    
+    <table>
+        <tr>
+            <th>Issue</th>
+            <th>Solution</th>
+        </tr>
+        <tr>
+            <td>Database connection error</td>
+            <td>
+                <ul>
+                    <li>Verify database credentials in .env file</li>
+                    <li>Ensure PostgreSQL is running: <code>sudo systemctl status postgresql</code></li>
+                    <li>Check if the database exists: <code>sudo -u postgres psql -c "\l"</code></li>
+                    <li>Verify PostgreSQL is listening on the correct port: <code>sudo netstat -tuln | grep 5432</code></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Node.js application won't start</td>
+            <td>
+                <ul>
+                    <li>Check Node.js version: <code>node -v</code> (should be 18.0+)</li>
+                    <li>Verify all dependencies are installed: <code>npm install</code></li>
+                    <li>Check for errors in the logs: <code>pm2 logs</code></li>
+                    <li>Ensure the correct environment variables are set in .env file</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Nginx configuration errors</td>
+            <td>
+                <ul>
+                    <li>Test Nginx configuration: <code>sudo nginx -t</code></li>
+                    <li>Check Nginx error logs: <code>sudo tail -f /var/log/nginx/error.log</code></li>
+                    <li>Verify Nginx is running: <code>sudo systemctl status nginx</code></li>
+                    <li>Ensure the correct domain is configured in the Nginx server block</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Memory issues on 1GB RAM servers</td>
+            <td>
+                <ul>
+                    <li>Optimize Node.js memory usage: <code>NODE_OPTIONS="--max-old-space-size=512"</code></li>
+                    <li>Configure swap space:
+                        <pre><code>sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab</code></pre>
+                    </li>
+                    <li>Reduce PostgreSQL memory usage by editing <code>postgresql.conf</code>:
+                        <pre><code>shared_buffers = 128MB
+work_mem = 4MB
+maintenance_work_mem = 32MB</code></pre>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <h3>Getting Help</h3>
+    
+    <p>If you encounter issues not covered in this guide:</p>
+    
+    <ul>
+        <li>Check the <a href="https://your-domain.com/docs.html">documentation</a></li>
+        <li>Visit our <a href="https://github.com/your-repo/piexed-ai/issues">GitHub issues</a> page</li>
+        <li>Contact support at <a href="mailto:support@piexed.ai">support@piexed.ai</a></li>
+    </ul>
+    
+    <h3>Server Optimization</h3>
+    
+    <p>For optimal performance, especially on servers with limited resources:</p>
+    
+    <ul>
+        <li>Use a CDN for static assets</li>
+        <li>Enable Nginx caching</li>
+        <li>Optimize PostgreSQL configuration</li>
+        <li>Use PM2 for process management and automatic restarts</li>
+        <li>Consider using cloud storage for media files</li>
+    </ul>
+    
+    <div class="note">
+        <p><strong>Note:</strong> Piexed AI is designed to run efficiently on servers with as little as 1GB RAM, but 2GB or more is recommended for production environments with multiple users.</p>
+    </div>
+</body>
+</html>
+
